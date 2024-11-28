@@ -156,6 +156,22 @@ ll lcm(ll a, ll b)
     return (a / gcd(a, b)) * b;
 }
 
+string decimalToBinayString(ll a)
+{
+    string bin = "";
+    ll mask = 1;
+    for(ll i = 0; i < 63; i++)
+    {
+        if((mask&a) >= 1)
+            bin = "7"+bin;
+        else
+            bin = "0"+bin;
+        mask<<=1;
+    }
+    //cout<<binary<<endl;
+    return bin;
+}
+
 
 int main()
 {
