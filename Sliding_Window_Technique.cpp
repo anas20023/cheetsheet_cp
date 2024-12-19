@@ -1,6 +1,11 @@
 /*
 Why should I use this Technique?
 REASON: The sliding window technique effectively reduces time complexity from O(n^2) to O(n), making it suitable for large datasets.
+
+There are two types of Sliding Window Techniques:
+01. Fixed_Size Window
+02. Variable_Size Window
+
 */
 
 
