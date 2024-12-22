@@ -19,6 +19,7 @@ typedef double dl;
 #define MP make_pair
 #define endl '\n'
 #define all(a) (a).begin(), (a).end()
+#define forn for(int i=0;i<n; i++)
 #define sz(x) (int)x.size()
 #define mid(l, r) ((r + l) / 2)
 #define left(node) (node * 2)
