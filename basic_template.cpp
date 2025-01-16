@@ -200,6 +200,10 @@ int toggle_kth_bit(int n, int k) {
    return (n ^ (1 << k));
 }
 
+int countSetBits(int n) {
+    return __builtin_popcount(n);
+}
+
 int main()
 {
     optimize();
