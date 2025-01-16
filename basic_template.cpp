@@ -34,7 +34,7 @@ const ll infLL = 9000000000000000000;
 
 #define mem(a, b) memset(a, b, sizeof(a))
 #define GCD(a, b) __gcd(a, b)
-#define LCM(a, b) (a / __gcd(a, b)) * b
+#define LCM(a, b) ((a / __gcd(a, b)) * b)
 #define sqr(a) ((a) * (a))
 
 #define optimize()                \
